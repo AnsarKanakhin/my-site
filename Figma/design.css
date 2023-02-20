@@ -1,0 +1,74 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin-top: -7vh;
+}
+.main_content
+{
+    margin-top: 7vh;
+    height: 92.8vh;
+    width: 100%;
+    background-color: black;
+}
+.gadget
+{
+    width: 50%;
+    height: 20vh;
+    background-color: #630053;
+    color: white;
+    font-size: 6em;
+}
+.pc
+{
+    width: 40%;
+    height: 20vh;
+    font-size: 6em;
+    background-color: rgb(2, 93, 2);
+    color: white;
+}
+.decor
+{
+    width: 30%;
+    height: 13vh;
+    font-size: 3.5em;
+    background-color: rgb(101, 0, 0);
+    color: white;
+}
+.start_button
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-lg
+{
+    width: 40vw;
+    height: 15vh;
+    border-radius: 20em;
+    font-size: 2.5em;
+    background-color: lightgray;
+}
+.btn-lg:hover{
+    background-color: rgb(113, 113, 113);
+    color: white;
+} 
+.buy_content{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.buy{
+    width: 300px;
+    height: 300px;
+}
+.button-buy{
+    background-color: black;
+    width: 50px;
+    border-radius: 10%;
+    color:white;
+    text-decoration: none;
+    height:50px;
+    font-size: 30px;
+}
